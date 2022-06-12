@@ -1,0 +1,62 @@
+.bannerlogin{
+    margin-left: 10%;
+
+    &-login{
+        @include tablet{
+            margin-top: 15%;
+            width: 150%;
+        }
+        @include phone{
+            margin-top: 40%;
+            
+        }
+        
+        h3{
+            font-size: 3rem;
+            margin-top: 10%;
+            margin-bottom: 2rem;
+            margin-left: 0.5rem;
+    
+        }
+    
+        input{
+            font-size: 1.5rem;
+            border: 1px solid black;
+            margin: 0.5rem;
+            width: 30%;
+            font-weight: 300;
+            padding: 1rem;
+        }
+
+            ::placeholder{
+                color:black;
+            
+            }
+            
+       
+        p{
+            font-size: 1.5rem;
+            margin-left: 0.5rem;
+            margin-bottom: 1rem;
+            color: black;
+        }
+        a{
+    
+            font-style: bold;
+            text-transform: none;
+            
+        }
+        button{
+            font-size: 1.5rem;
+            background-color: black;
+            color: white;
+            border: 1px solid black;
+            padding: 1rem;
+            margin-left: 0.5rem;
+            
+                  
+    }
+    
+    }
+
+}

@@ -1,0 +1,83 @@
+.checkcart {
+
+    margin-top: 10%;
+    margin-left: 10%;
+
+    h2 {
+        font-size: 2rem;
+        margin-bottom: 5%;
+        font-weight: bold;
+    }
+
+    &-cart {
+
+        display: flex;
+        h1 {
+            margin-bottom: 4rem;
+        }
+
+        .item {
+            margin-left: 2rem;
+            a {
+                font-size: 1.5rem;
+            }
+
+            p {
+                font-size: 1.5rem;
+                color: lightgray;
+            }
+            li{
+                font-size: 2rem;
+                list-style: none;
+            }
+            input{
+                width: 5%;
+                height: 20%; 
+                margin-top: 2rem;
+            }
+        }
+
+    }
+
+    .shoppingcart {
+        width: 35%;
+        
+        background-color: lightgrey;
+        margin-left: 10rem;
+    
+        
+
+
+        &-total {
+            margin: 3rem;
+            margin-bottom: 5%;
+            
+        
+            h4 {
+                font-size: 2rem;
+            }
+
+            p {
+                font-size: 1.5rem;
+            }
+
+        }
+    }
+
+    .shoppingcart-bill {
+
+        button{
+            font-size: 1.5rem;
+            background-color: black;
+            color: white;
+            border: 1px solid black;
+            padding: 1rem;
+            width: 35%;
+            margin-top: 2rem;
+            margin-left: 50.5%;
+        }
+
+    }
+
+
+}

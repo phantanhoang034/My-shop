@@ -8,8 +8,8 @@ const Menu = (active) => {
         <form className={active.active ? "menu" : "menu menu-close"}> 
             <div className='menu-menu'>
                 <ul>
-                <li><Link to="/Boy" className='link'>NAM</Link></li>
-                <li><Link to="/Girl" className='link'>NỮ</Link></li>
+                <li><Link to="/boy" className='link'>NAM</Link></li>
+                <li><Link to="/girl" className='link'>NỮ</Link></li>
                 <li><Link to="/" className='link'>NEW ARRIVALS</Link></li>
                 <li><Link to="/" className='link'>COLLECTION</Link></li>
                 <li><Link to="/" className='link'>SUMMER SALE</Link></li>

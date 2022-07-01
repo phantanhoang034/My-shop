@@ -24,14 +24,8 @@ html {
   max-width: 100%;
   // padding: 0 50px;
   margin: auto;
-}
+} 
 
-.main {
-  
-}
-::-webkit-scrollbar { 
-  display: none; 
-}
 .load-more{
 
   @include tablet{
@@ -64,6 +58,18 @@ html {
   }
  
 
+}
+
+::-webkit-scrollbar {
+  width: .6rem;
+}
+::-webkit-scrollbar-thumb {
+  background: silver;
+  border-radius: .3rem;
+}
+::-webkit-scrollbar-track {
+  background: #fff;
+  border-radius: .3rem;
 }
 
 

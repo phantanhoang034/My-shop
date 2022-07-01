@@ -3,7 +3,7 @@ const data = {
              {
             id: "10F21JAC001R",
             name: "ÁO KHOÁC BOMBER. REGULAR - 10F21JAC001R",
-            price: "1.130.000đ",
+            price:1130000,
             colors: [
                 {
                     id:1,
@@ -21,7 +21,7 @@ const data = {
              {
             id: "10S21SHL014",
             name: "ÁO SƠ MI TAY DÀI. REGULAR FORM - 10S21SHL014",
-            price: "442.000đ",
+            price:442000,
             colors: [
                 {
                     id:1,
@@ -39,7 +39,7 @@ const data = {
         {
             id: "10F21WJA003",
             name: "ÁO KHOÁC GIÓ BOMBER.REGULAR - 10F21WJA003",
-            price: "766.000đ",
+            price:766000,
             colors: [
                 {
                     id:1,
@@ -57,7 +57,7 @@ const data = {
         {
             id: "10F21PCA002C",
             name: "QUẦN DÀI KAKHI. SLIM CROP - 10F21PCA002C",
-            price: "442.000đ",
+            price:442000,
             colors: [
                 {
                     id:1,
@@ -85,7 +85,7 @@ const data = {
         {
             id: "10S21DPS003",
             name: "QUẦN SHORT TRƠN. STRAIGHT FORM - 10S21DPS003",
-            price: "383.000đ",
+            price:383000,
             colors: [
                 {
                     id:1,
@@ -100,7 +100,7 @@ const data = {
         {
             id: "10S21SHS021",
             name: "ÁO SƠ MI TAY NGẮN. OVERSIZE FORM - 10S21SHS021",
-            price: "442.000đ",
+            price:442000,
              colors: [
                 {
                     id:1,
@@ -118,7 +118,7 @@ const data = {
         {
             id: "10S21SHS019",
             name: "ÁO SƠ MI TAY NGẮN. LOOSE FORM - 10S21SHS019",
-            price: "442.000đ",
+            price:442000,
              colors: [
                 {
                     id:1,
@@ -136,7 +136,7 @@ const data = {
         {
             id: "10S21SHS013",
             name: "ÁO SƠ MI NGẮN TAY. REGULAR FORM - 10S21SHS013",
-            price: "383.000đ",
+            price:383000,
              colors: [
                 {
                     id:1,
@@ -160,7 +160,7 @@ const data = {
         {
             id: "10S21SHS008",
             name: "ÁO SƠ MI TAY NGẮN. REGULAR FORM - 10S21SHS008",
-            price: "413.000đ",
+            price:413000,
              colors: [
                 {
                     id:1,
@@ -190,7 +190,7 @@ const data = {
         {
             id: "10S21SHL035",
             name: "ÁO SƠ MI TAY DÀI. LOOSE FORM - 10S21SHL035",
-            price: "383.000đ",
+            price:383000,
              colors: [
                 {
                     id:1,
@@ -206,7 +206,7 @@ const data = {
         {
             id: "10S21PCA008",
             name: "QUẦN DÀI, LƯNG CHUN. CARROT FORM - 10S21PCA008",
-            price: "442.000đ",
+            price:442000,
              colors: [
                 {
                     id:1,
@@ -221,7 +221,7 @@ const data = {
         {
             id: "10S21DPS004",
             name: "QUẦN SHORT JEAN. STRAIGHT FORM - 10S21DPS004",
-            price: "383.000đ",
+            price:383000,
              colors: [
                 {
                     id:1,
@@ -236,7 +236,7 @@ const data = {
         {
             id: "10S21DJA005",
             name: "ÁO KHOÁC JEAN. LOOSE FORM - 10S21DJA005",
-            price: "639.000đ",
+            price:639000,
              colors: [
                 {
                     id:1,
@@ -251,7 +251,7 @@ const data = {
         {
             id: "10S21TSH024",
             name: "ÁO THUN TAY NGẮN. FITTED FORM - 10S21TSH024",
-            price: "246.000đ",
+            price:246000,
              colors: [
                 {
                     id:1,
@@ -269,7 +269,7 @@ const data = {
         {
             id: "10S21TSH015",
             name: "ÁO THUN TAY NGẮN. REGULAR FORM - 10S21TSH015",
-            price: "275.000đ",
+            price:275000,
              colors: [
                 {
                     id:1,
@@ -292,7 +292,7 @@ const data = {
         {
             id: "10S21SHS007",
             name: "ÁO SƠ MI TAY NGẮN. REGULAR FORM - 10S21SHS007",
-            price: "442.000đ",
+            price:442000,
              colors: [
                 {
                     id:1,
@@ -310,7 +310,7 @@ const data = {
         {
             id: "10S21POL030",
             name: "ÁO POLO NGẮN TAY CÓ TÚI. FITTED FORM. - 10S21POL030",
-            price: "374.000đ",
+            price:374000,
              colors: [
                 {
                     id:1,
@@ -333,7 +333,7 @@ const data = {
         {
             id: "10S21POL017",
             name: "ÁO POLO DECOR TAPE TRỤ. FITTED FORM - 10S21POL017",
-            price: "383.000đ",
+            price:383000,
              colors: [
                 {
                     id:1,
@@ -361,7 +361,7 @@ const data = {
         {
             id: "10S21PCA017C",
             name: "QUẦN KAKI DÀI. SLIM FORM - 10S21PCA017C",
-            price: "472.000đ",
+            price:472000,
              colors: [
                 {
                     id:1,
@@ -379,7 +379,7 @@ const data = {
         {
             id: "10S21PCA001C",
             name: "QUẦN KAKI. SLIM FORM - 10S21PCA001C",
-            price: "472.000đ",
+            price:472000,
              colors: [
                 {
                     id:1,
@@ -402,7 +402,7 @@ const data = {
         {
             id: "10S21DPA044",
             name: "QUẦN JEAN TRƠN. STRAGHT CROP FORM - 10S21DPA044",
-            price: "570.000đ",
+            price:570000,
              colors: [
                 {
                     id:1,
@@ -417,7 +417,7 @@ const data = {
         {
             id: "10S21DJA007",
             name: "ÁO KHOÁC JEAN. LOOSE FORM - 10S21DJA007",
-            price: "639.000đ",
+            price:639000,
              colors: [
                 {
                     id:1,
@@ -432,7 +432,7 @@ const data = {
         {
             id: "10S21SHS020",
             name: "ÁO SƠ MI NAM TAY NGẮN, CỔ V. LOOSE - 10S21SHS020",
-            price: "374.000đ",
+            price:374000,
              colors: [
                 {
                     id:1,
@@ -457,7 +457,7 @@ const data = {
         {
             id: "10F21TSSW004",
             name: "ÁO THUN TAY NGẮN CỔ V. REGULAR. - 10F21TSSW004",
-            price: "216.000đ",
+            price:216000,
             colors: [
                 {
                     id:1,
@@ -490,7 +490,7 @@ const data = {
         {
             id: "10F21KNIW029",
             name: "ÁO POLO DỆT KIM NỮ. SLIM FIT - 10F21KNIW029",
-            price: "413.000đ",
+            price:413000,
             colors: [
                 {
                     id:1,
@@ -518,7 +518,7 @@ const data = {
         {
             id: "10F21KNIW013",
             name: "ÁO DỆT KIM TAY NGẮN CỔ V. REGULAR - 10F21KNIW013",
-            price: "413.000đ",
+            price:413.000,
             colors: [
                 {
                     id:1,
@@ -536,7 +536,7 @@ const data = {
         {
             id: "10S21TTOW006",
             name: "ÁO 2 DÂY NHÚN CỔ.REGULAR - 10S21TTOW006",
-            price: "315.000đ",
+            price:315000,
             colors: [
                 {
                     id:1,
@@ -554,7 +554,7 @@ const data = {
         {
             id: "10S21PFOW012",
             name: "QUẦN DÀI NỮ, ỐNG RỘNG. - 10S21PFOW012",
-            price: "570.000đ",
+            price:570.000,
             colors: [
                 {
                     id:1,
@@ -572,7 +572,7 @@ const data = {
         {
             id: "10S21DPSW001",
             name: "QUẦN SHORT NỮ. - 10S21DPSW001",
-            price: "388.000đ",
+            price:388.000,
             colors: [
                 {
                     id:1,
@@ -590,7 +590,7 @@ const data = {
         {
             id: "10S21SHSW010",
             name: "ÁO TAY NGẮN BO THUN EO - 10S21SHSW010",
-            price: "413.000đ",
+            price:413.000,
             colors: [
                 {
                     id:1,
@@ -608,7 +608,7 @@ const data = {
         {
             id: "10S21PFOW010",
             name: "QUẦN NỮ DÀI, ỐNG RỘNG - 10S21PFOW010",
-            price: "540.000đ",
+            price:540.000,
             colors: [
                 {
                     id:1,
@@ -626,7 +626,7 @@ const data = {
         {
             id: "10S21DPAW014",
             name: "QUẦN JEAN TRƠN. SKINNY FORM - 10S21DPAW014",
-            price: "472.000đ",
+            price:472.000,
             colors: [
                 {
                     id:1,
@@ -644,7 +644,7 @@ const data = {
         {
             id: "10F21KNIW015",
             name: "ĐẦM DỆT KIM TAY NGẮN CỔ V. REGULAR - 10F21KNIW015",
-            price: "668.000đ",
+            price:668.000,
             colors: [
                 {
                     id:1,
@@ -662,7 +662,7 @@ const data = {
         {
             id: "10F21KNIW014",
             name: "ÁO DỆT KIM TAY NGẮN CỔ BẺ. SLIM - 10F21KNIW014",
-            price: "413.000đ",
+            price:413.000,
             colors: [
                 {
                     id:1,
@@ -680,7 +680,7 @@ const data = {
         {
             id: "10F21DREW026",
             name: "ĐẦM MIDI CỔ CUBA.REGULAR - 10F21DREW026",
-            price: "766.000đ",
+            price:766.000,
             colors: [
                 {
                     id:1,
@@ -698,7 +698,7 @@ const data = {
         {
             id: "10S21DREW001",
             name: "ẦM SATIN TÀ CAO THẤP - 10S21DREW001",
-            price: "766.000đ",
+            price:766.000,
             colors: [
                 {
                     id:1,
@@ -716,7 +716,7 @@ const data = {
         {
             id: "10S22SHSW010",
             name: "ÁO TAY NGẮN NHÚN CỔ. LOOSE CROP - 10S22SHSW010",
-            price: "390.000đ",
+            price:390.000,
             colors: [
                 {
                     id:1,
@@ -734,7 +734,7 @@ const data = {
         {
             id: "10S22DREW014",
             name: "ĐẦM MIDI TAY NGẮN BẢN TO. REGULAR - 10S22DREW014",
-            price: "650.000đ",
+            price:650.000,
             colors: [
                 {
                     id:1,
@@ -752,7 +752,7 @@ const data = {
         {
             id: "10S21TTOW005",
             name: "ÁO THUN TANKTOP CỔ ĐỔ - 10S21TTOW005",
-            price: "187.000đ",
+            price:187.000,
             colors: [
                 {
                     id:1,
@@ -770,7 +770,7 @@ const data = {
         {
             id: "10S21TSHW020",
             name: "ÁO THUN TAY NGẮN IN HÌNH REGULAR - 10S21TSHW020",
-            price: "275.000đ",
+            price:275.000,
             colors: [
                 {
                     id:1,
@@ -788,7 +788,7 @@ const data = {
         {
             id: "10S21SHSW002",
             name: "ÁO KIỂU TAY LIỀN THẮT DÂY.REGULAR - 10S21SHSW002",
-            price: "420.000đ",
+            price:420.000,
             colors: [
                 {
                     id:1,
@@ -806,7 +806,7 @@ const data = {
         {
             id: "10S21SHLW014",
             name: "ÁO SƠ MI TAY DÀI CỔ LỆCH. - 10S21SHLW014",
-            price: "511.000đ",
+            price:511.000,
             colors: [
                 {
                     id:1,
@@ -824,7 +824,7 @@ const data = {
         {
             id: "10S21SHLW013",
             name: "ÁO SƠ MI TAY DÀI, LINEN - 10S21SHLW013",
-            price: "540.000đ",
+            price:540.000,
             colors: [
                 {
                     id:1,
@@ -842,7 +842,7 @@ const data = {
         {
             id: "10S21SHLW007",
             name: "ÁO TAY DÀI NẸP LỆCH. - 10S21SHLW007",
-            price: "472.000đ",
+            price:472.000,
             colors: [
                 {
                     id:1,
@@ -860,7 +860,7 @@ const data = {
         {
             id: "10S21DJAW001",
             name: "ÁO JACKET JEAN THÊU . LOOSE - 10S21DJAW001",
-            price: "570.000đ",
+            price:570000,
             colors: [
                 {
                     id:1,
@@ -878,7 +878,7 @@ const data = {
         {
             id: "10F21TSSW013",
             name: "ÁO THUN TAY NGẮN IN. FITTED. - 10F21TSSW013",
-            price: "275.000đ",
+            price:275000,
             colors: [
                 {
                     id:1,
@@ -894,5 +894,27 @@ const data = {
         },
 
     ],
+
+    summerSale: [
+        {
+       id: "10F21JAC001R",
+       name: "ÁO KHOÁC BOMBER. REGULAR - 10F21JAC001R",
+       price:1130000,
+       colors: [
+           {
+               id:1,
+               img:"https://routine.vn/media/catalog/product/cache/e78fcb931fd36e972f6051c94f188557/1/0/10f21jac001r-red-6_1.jpg",
+               
+           },
+           {
+               id:2,
+               img:"https://routine.vn/media/catalog/product/cache/e78fcb931fd36e972f6051c94f188557/1/0/10f21jac001r-green-6_2.jpg",
+           },
+       ],
+       img: "https://routine.vn/media/catalog/product/cache/a2fcefb561dcc03dd69ce08e688653ae/1/0/10f21jac001r-green-1_1.jpg",
+   },
+],
+
+
 }
 export default data;

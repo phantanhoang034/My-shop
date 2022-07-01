@@ -7,6 +7,7 @@ const ChecktoCart = () => {
     <div className='checktocart'>
     <Header />
     <CheckCart />
+    
     </div>
   )
 }

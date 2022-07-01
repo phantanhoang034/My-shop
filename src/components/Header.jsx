@@ -6,6 +6,7 @@ import Menu from './Menu';
 
 const Header = () => {
     const [active, setActive] = useState(false);
+    
 
 
     return (
@@ -22,17 +23,17 @@ const Header = () => {
 
                     <ul>
                         <li>
-                            <Link to="/Boy" className='link-color'>
+                            <Link to="/boy" className='link-color'>
                                 NAM
                             </Link>
                         </li>
                         <li>
-                            <Link to="/Girl" className='link-color'>
+                            <Link to="/girl" className='link-color'>
                                 NỮ
                             </Link>
                         </li>
                         <li>
-                            <Link to="/" className='link-color'>
+                            <Link to="/checktocart" className='link-color'>
                                 NEW ARRIVALS
                             </Link>
                         </li>
@@ -42,7 +43,7 @@ const Header = () => {
                             </Link>
                         </li>
                         <li >
-                            <Link to="/ChecktoCart" className='color-color'>
+                            <Link to="/ss" className='color-color'>
                                 SUMMER SALE
                             </Link>
                         </li>
@@ -68,7 +69,7 @@ const Header = () => {
                     <input placeholder='TÌM SẢN PHẨM' type="search" />
                     <ul >
                         <li >
-                            <Link to="/Login" className='link-color'>
+                            <Link to="/login" className='link-color'>
                                 ĐĂNG NHẬP
                             </Link></li>
                         <li >
@@ -76,7 +77,7 @@ const Header = () => {
                                 TRỢ GIÚP
                             </Link></li>
                         <li >
-                            <Link to="/AddtoCart" className='link-color'>
+                            <Link to="/addtoCart" className='link-color'>
                                 GIỎ HÀNG
                             </Link></li>
                     </ul>

@@ -4,40 +4,40 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom';
 import ProductDetails from './ProductDetails';
 
-const BannerBoy = () => {
+const SS = () => {
   const [visible, setVisible] = useState(4);
   const [product, setProduct] = useState({});
-  // const [show, setShow] = useState(false);
+  const [show, setShow] = useState(false);
 
 
 
-  // const check = (item) => {
-  //   setProduct(item);
-  //   setShow(!show);
-  // };
+  const check = (item) => {
+    setProduct(item);
+    setShow(!show);
+  };
 
   // console.log(product);
 
   return (
-    <div className='bannerboy'>
-      <div className='bannerboy-boy'>
-        <img src='https://routine.vn/media/catalog/category/Web_Banner_Cate_SP_Nam.jpg' />
+    <div className='ss'>
+      <div className='ss-sale'>
+        <img src='https://routine.vn/media/catalog/category/Holiday-Season-Sale-Th_ng-5_Web-Slider_1920x450_.gif' />
         <ul>
           <Link to="/" className='home-page'>TRANG CHỦ</Link>
           <i className="fas fa-chevron-right"></i>'
-          <li>THỜI TRANG NAM</li>
+          <li>SUMMER SALE</li>
         </ul>
       </div>
       <div className='container-fluid'>
         <div className='row'>
           {
-            data.boyClothes.slice(0, visible).map((item, index) => {
+            data.summerSale.slice(0, visible).map((item, index) => {
               // console.log(item)
               return (
-                <Link to ={`/${item.id}`}
-                  className='col-lg-3 col-sm-6 col-xs-12 test'
+                <div
+                  className='col-lg-3 col-sm-6 col-xs-12'
                   key={index}
-                  // onClick={() => check(item)}
+                  onClick={() => check(item)}
                 >
                   <img src={item.img} />
                   <p>
@@ -55,11 +55,11 @@ const BannerBoy = () => {
                       
                     </div>
                   </div>
-                </Link>
+                </div>
               )
             })
           }
-          {visible <= data.boyClothes.length ?
+          {visible <= data.summerSale.length ?
             <h3 className='load-more' onClick={() => setVisible(visible + 4)}>
               Xem thêm
             </h3>
@@ -72,12 +72,12 @@ const BannerBoy = () => {
       </div>
 
       <ProductDetails
-        // show={show}
-        // setShow={setShow}
+        show={show}
+        setShow={setShow}
         product={product}
         setProduct={setProduct}
       />
     </div>
   )
 }
-export default BannerBoy
+export default SS

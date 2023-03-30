@@ -3,6 +3,7 @@ import data from "../data/data"
 import { useState } from 'react'
 import { Link } from 'react-router-dom';
 import ProductDetails from './ProductDetails';
+import DetailsGirl from './DetailsGirl';
 
 const BannerGirl = () => {
   const [visible, setVisible] = useState(4);
@@ -21,11 +22,11 @@ const BannerGirl = () => {
   return (
     <div className='bannergirl'>
       <div className='bannergirl-girl'>
-        <img src='https://routine.vn/media/catalog/category/Web_Banner_Cate_SP_Nam.jpg' />
+        <img src='https://routine.vn/media/catalog/category/Sa_n_pha_m_nu_.jpg' />
         <ul>
           <Link to="/" className='home-page'>TRANG CHỦ</Link>
           <i className="fas fa-chevron-right"></i>'
-          <li>THỜI TRANG NAM</li>
+          <li>THỜI TRANG NỮ</li>
         </ul>
       </div>
       <div className='container-fluid'>
@@ -44,7 +45,7 @@ const BannerGirl = () => {
                     <a>{item.name}</a>
                   </p>
                   <p>{item.price}</p>
-                  <div className='option-view-boy'>
+                  <div className='option-view-girl'>
                     <div className="row">
                       {item.colors.map((element, id) => {
                         return (
@@ -71,7 +72,7 @@ const BannerGirl = () => {
         </div>
       </div>
 
-      <ProductDetails
+      <DetailsGirl
         // show={show}
         // setShow={setShow}
         product={product}

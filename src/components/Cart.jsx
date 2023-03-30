@@ -42,8 +42,9 @@ const Cart = () => {
             <div className="check">
               <img src={item.product.img} alt="" />
               <div className="item">
-                <a>{item.product.name} size nè {item.size}</a>
-                <li>{item.product.price}</li>
+                <p>{item.product.name}</p>
+                <p>{item.size}</p>
+                <li>{castToVND(item.product.price)}</li>
                 <div className="checks">
                   <div className="checks-left">
                     <input
@@ -77,7 +78,7 @@ const Cart = () => {
               </div>
             </div>
           ))}
-          <div>Tổng tiền: {castToVND(totalPrice())}</div>
+          <div className="total">Tổng tiền: {castToVND(totalPrice())}</div>
           {/* <div className="shoppingcart-bill">
             <button>
               <span>TIẾN HÀNH THANH TOÁN</span>

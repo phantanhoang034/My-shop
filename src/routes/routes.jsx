@@ -9,7 +9,8 @@ import Login from "../pages/Login";
 import Product from "../pages/Product";
 import AddtoCart from "../pages/AddtoCart";
 import ChecktoCart from "../pages/ChecktoCart";
-import Sale from "../pages/Sale";
+import GirlProduct from "../pages/GirlProduct";
+
 
 const RoutesPage = () => {
     return(
@@ -18,11 +19,12 @@ const RoutesPage = () => {
             <Route path="/boy" element = {<Boy />} />
             <Route path="/girl" element = {<Girl />} />
             <Route path="/login" element = {<Login />} />
-            <Route path="/ss" element = {<Sale />} />
             <Route path="/:id" element = {<Product />} />
-            
+            <Route path="/:id" element = {<GirlProduct />} />
             <Route path="/addtocart" element = {<AddtoCart />} />
             <Route path="/checktocart" element ={<ChecktoCart />} />
+            
+            
 
 
         </Routes>

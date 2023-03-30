@@ -21,11 +21,11 @@ const Banner = () => {
     <div className='swiper'>
 
         <div className='swiper-slide'>
-        <img src='https://routine.vn/media/wysiwyg/slider/Holiday_Season_Sale_Th_ng_5_Web_Slider_1920x1000.jpg' />
+        <img src='https://routine.vn/media/banner/tmp/images/E-com_Resize_tang_B_nh_n_c_1920x984_-_update.jpg' />
         </div>
 
         <div className='swiper-slide'>
-        <img src='https://routine.vn/media/wysiwyg/slider/Good_Mood_Good_Day_1920x1000_PC.jpg' />
+        <img src='https://routine.vn/media/banner/tmp/images/Valentine_resize_ECOM_1920X984.jpg' />
         </div>
 
 

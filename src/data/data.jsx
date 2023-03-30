@@ -204,18 +204,18 @@ const data = {
         },
 
         {
-            id: "10S21PCA008",
-            name: "QUẦN DÀI, LƯNG CHUN. CARROT FORM - 10S21PCA008",
+            id: "10S21SHL001C",
+            name: "Áo Sơ Mi Nam Tay Dài Form Regular - 10S21SHL001C",
             price:442000,
              colors: [
                 {
                     id:1,
-                    img:"https://routine.vn/media/catalog/product/cache/e78fcb931fd36e972f6051c94f188557/d/s/dsc_5742_1.jpg",
+                    img:"https://routine.vn/media/catalog/product/cache/5de180fdba0e830d350bd2803a0413e8/m/a/mausac_apple_10s21shl001c_2_.jpg",
                     
                 },
             
             ],
-            img: "https://routine.vn/media/catalog/product/cache/e78fcb931fd36e972f6051c94f188557/d/s/dsc_5738_1.jpg",
+            img: "https://routine.vn/media/catalog/product/cache/5de180fdba0e830d350bd2803a0413e8/m/a/mausac_apple_10s21shl001c_5_.jpg",
         },
 
         {
@@ -517,8 +517,8 @@ const data = {
 
         {
             id: "10F21KNIW013",
-            name: "ÁO DỆT KIM TAY NGẮN CỔ V. REGULAR - 10F21KNIW013",
-            price:413.000,
+            name: "ÁO DỆT KIM TAY NGẮN CỔ V - 10F21KNIW013",
+            price:413000,
             colors: [
                 {
                     id:1,
@@ -554,7 +554,7 @@ const data = {
         {
             id: "10S21PFOW012",
             name: "QUẦN DÀI NỮ, ỐNG RỘNG. - 10S21PFOW012",
-            price:570.000,
+            price:570000,
             colors: [
                 {
                     id:1,
@@ -572,7 +572,7 @@ const data = {
         {
             id: "10S21DPSW001",
             name: "QUẦN SHORT NỮ. - 10S21DPSW001",
-            price:388.000,
+            price:388000,
             colors: [
                 {
                     id:1,
@@ -590,7 +590,7 @@ const data = {
         {
             id: "10S21SHSW010",
             name: "ÁO TAY NGẮN BO THUN EO - 10S21SHSW010",
-            price:413.000,
+            price:413000,
             colors: [
                 {
                     id:1,
@@ -608,7 +608,7 @@ const data = {
         {
             id: "10S21PFOW010",
             name: "QUẦN NỮ DÀI, ỐNG RỘNG - 10S21PFOW010",
-            price:540.000,
+            price:540000,
             colors: [
                 {
                     id:1,
@@ -626,7 +626,7 @@ const data = {
         {
             id: "10S21DPAW014",
             name: "QUẦN JEAN TRƠN. SKINNY FORM - 10S21DPAW014",
-            price:472.000,
+            price:472000,
             colors: [
                 {
                     id:1,
@@ -643,26 +643,22 @@ const data = {
 
         {
             id: "10F21KNIW015",
-            name: "ĐẦM DỆT KIM TAY NGẮN CỔ V. REGULAR - 10F21KNIW015",
-            price:668.000,
+            name: "ĐẦM DỆT KIM TAY NGẮN CỔ V- 10F21KNIW015",
+            price:668000,
             colors: [
                 {
                     id:1,
-                    img:"https://routine.vn/media/catalog/product/cache/e78fcb931fd36e972f6051c94f188557/1/0/10f21tssw004-be3_1.jpg",
+                    img:"https://routine.vn/media/catalog/product/cache/5de180fdba0e830d350bd2803a0413e8/1/0/10s21shsw008-black-5_1.jpg",
                 },
 
-                {
-                    id:2,
-                    img:"https://routine.vn/media/catalog/product/cache/e78fcb931fd36e972f6051c94f188557/1/0/10f21tssw004-white-4_1.jpg",
-                },
             ],
-            img: "https://routine.vn/media/catalog/product/cache/e78fcb931fd36e972f6051c94f188557/1/0/10f21kniw015-black4_1.jpg",
+            img: "https://routine.vn/media/catalog/product/cache/5de180fdba0e830d350bd2803a0413e8/1/0/10s21shsw008-black-4_1.jpg",
         },
 
         {
             id: "10F21KNIW014",
             name: "ÁO DỆT KIM TAY NGẮN CỔ BẺ. SLIM - 10F21KNIW014",
-            price:413.000,
+            price:413000,
             colors: [
                 {
                     id:1,
@@ -680,7 +676,7 @@ const data = {
         {
             id: "10F21DREW026",
             name: "ĐẦM MIDI CỔ CUBA.REGULAR - 10F21DREW026",
-            price:766.000,
+            price:766000,
             colors: [
                 {
                     id:1,
@@ -698,7 +694,7 @@ const data = {
         {
             id: "10S21DREW001",
             name: "ẦM SATIN TÀ CAO THẤP - 10S21DREW001",
-            price:766.000,
+            price:766000,
             colors: [
                 {
                     id:1,
@@ -716,7 +712,7 @@ const data = {
         {
             id: "10S22SHSW010",
             name: "ÁO TAY NGẮN NHÚN CỔ. LOOSE CROP - 10S22SHSW010",
-            price:390.000,
+            price:390000,
             colors: [
                 {
                     id:1,
@@ -734,7 +730,7 @@ const data = {
         {
             id: "10S22DREW014",
             name: "ĐẦM MIDI TAY NGẮN BẢN TO. REGULAR - 10S22DREW014",
-            price:650.000,
+            price:650000,
             colors: [
                 {
                     id:1,
@@ -752,7 +748,7 @@ const data = {
         {
             id: "10S21TTOW005",
             name: "ÁO THUN TANKTOP CỔ ĐỔ - 10S21TTOW005",
-            price:187.000,
+            price:187000,
             colors: [
                 {
                     id:1,
@@ -770,7 +766,7 @@ const data = {
         {
             id: "10S21TSHW020",
             name: "ÁO THUN TAY NGẮN IN HÌNH REGULAR - 10S21TSHW020",
-            price:275.000,
+            price:275000,
             colors: [
                 {
                     id:1,
@@ -788,7 +784,7 @@ const data = {
         {
             id: "10S21SHSW002",
             name: "ÁO KIỂU TAY LIỀN THẮT DÂY.REGULAR - 10S21SHSW002",
-            price:420.000,
+            price:420000,
             colors: [
                 {
                     id:1,
@@ -806,7 +802,7 @@ const data = {
         {
             id: "10S21SHLW014",
             name: "ÁO SƠ MI TAY DÀI CỔ LỆCH. - 10S21SHLW014",
-            price:511.000,
+            price:511000,
             colors: [
                 {
                     id:1,
@@ -824,7 +820,7 @@ const data = {
         {
             id: "10S21SHLW013",
             name: "ÁO SƠ MI TAY DÀI, LINEN - 10S21SHLW013",
-            price:540.000,
+            price:540000,
             colors: [
                 {
                     id:1,
@@ -842,7 +838,7 @@ const data = {
         {
             id: "10S21SHLW007",
             name: "ÁO TAY DÀI NẸP LỆCH. - 10S21SHLW007",
-            price:472.000,
+            price:472000,
             colors: [
                 {
                     id:1,
@@ -895,25 +891,9 @@ const data = {
 
     ],
 
-    summerSale: [
-        {
-       id: "10F21JAC001R",
-       name: "ÁO KHOÁC BOMBER. REGULAR - 10F21JAC001R",
-       price:1130000,
-       colors: [
-           {
-               id:1,
-               img:"https://routine.vn/media/catalog/product/cache/e78fcb931fd36e972f6051c94f188557/1/0/10f21jac001r-red-6_1.jpg",
-               
-           },
-           {
-               id:2,
-               img:"https://routine.vn/media/catalog/product/cache/e78fcb931fd36e972f6051c94f188557/1/0/10f21jac001r-green-6_2.jpg",
-           },
-       ],
-       img: "https://routine.vn/media/catalog/product/cache/a2fcefb561dcc03dd69ce08e688653ae/1/0/10f21jac001r-green-1_1.jpg",
-   },
-],
+   
+   
+
 
 
 }

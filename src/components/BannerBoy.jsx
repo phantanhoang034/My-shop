@@ -2,6 +2,8 @@ import React from 'react'
 import data from "../data/data"
 import { useState } from 'react'
 import { Link } from 'react-router-dom';
+import { castToVND } from '../common';
+import DetailsGirl from './DetailsGirl';
 import ProductDetails from './ProductDetails';
 
 const BannerBoy = () => {
@@ -21,7 +23,7 @@ const BannerBoy = () => {
   return (
     <div className='bannerboy'>
       <div className='bannerboy-boy'>
-        <img src='https://routine.vn/media/catalog/category/Web_Banner_Cate_SP_Nam.jpg' />
+        <img src='https://routine.vn/media/catalog/category/Sa_n_pha_m_nam.jpg' />
         <ul>
           <Link to="/" className='home-page'>TRANG CHỦ</Link>
           <i className="fas fa-chevron-right"></i>'
@@ -43,7 +45,7 @@ const BannerBoy = () => {
                   <p>
                     <a>{item.name}</a>
                   </p>
-                  <p>{item.price}</p>
+                  <p>{castToVND(item.price)}</p>
                   <div className='option-view-boy'>
                     <div className="row">
                       {item.colors.map((element, id) => {

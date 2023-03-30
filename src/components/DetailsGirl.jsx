@@ -7,7 +7,7 @@ import data from "../data/data";
 import { useDispatch } from "react-redux";
 import { addToCart } from "../redux/cartSlice";
 import { castToVND } from "../common";
-const ProductDetails = (product) => {
+const DetailsGirl = (product) => {
   const dispatch = useDispatch();
 
   const { id } = useParams();
@@ -16,7 +16,7 @@ const ProductDetails = (product) => {
   const [quantity, setQuality] = useState(1);
 
   useEffect(() => {
-    const res = data.boyClothes.find((item) => item.id + "" === id);
+    const res = data.girlClothes.find((item) => item.id + "" === id);
     setProducts(res);
   }, [id]);
 
@@ -54,7 +54,7 @@ const ProductDetails = (product) => {
 
   const handleAddToCart = (item) => {
     // console.log({product: item.product, qtt: item.quantity})
-    alert("Đã thêm vào giỏ hàng!");
+    alert("Thêm vào giỏ hàng thành công!!!");
     dispatch(
       addToCart({ product: item.product, qtt: item.quantity, size: item.size })
     );
@@ -136,4 +136,4 @@ const ProductDetails = (product) => {
   );
 };
 
-export default ProductDetails;
+export default DetailsGirl;

@@ -74,6 +74,8 @@
         .link-color {
             color: white;
             text-decoration: none;
+            font-size: 1.5rem;
+            
 
             &:hover {
                 border-bottom: 1px solid black;
@@ -156,8 +158,35 @@
             align-items: center;
             justify-content: space-between;
 
+            .text{
+                position: absolute;
+                padding: 1px 7px;
+                font-size: 1.4rem;
+                line-height: 1.4rem;
+                border-radius: 10px;
+                color: var(--primary-color);
+                background-color: #BE2C15;
+                color: white;
+            }
+            .icon{
+                position: absolute;
+                padding: 1px 7px;
+                font-size: 1.4rem;
+                line-height: 1.4rem;
+                border-radius: 10px;
+                color: var(--primary-color);
+                background-color: #BE2C15;
+                color: white;
+                @include phone{
+                    top: 8px;
 
-            i {
+
+                }
+            }
+    
+
+
+            .i {
                 font-size: 2rem;
                 cursor: pointer;
                 margin-left: 1rem;
@@ -305,6 +334,7 @@
             text-align: center;
             border-radius: 50%;
             display: none;
+            
 
             &:hover {
                 opacity: .6;
@@ -367,7 +397,38 @@
         align-items: center;
         justify-content: space-between;
 
-        i {
+
+        .text{
+            position: absolute;
+            padding: 1px 7px;
+            font-size: 1.4rem;
+            line-height: 1.4rem;
+            border-radius: 10px;
+            color: var(--primary-color);
+            background-color: #BE2C15;
+            color: white;
+        }
+        .icon{
+            position: absolute;
+            padding: 1px 7px;
+            font-size: 1.4rem;
+            line-height: 1.4rem;
+            border-radius: 10px;
+            color: var(--primary-color);
+            background-color: #BE2C15;
+            color: white;
+            @include phone{
+                top: 8px;
+
+
+            }
+
+        }
+
+        
+
+
+        .i {
             font-size: 2rem;
             cursor: pointer;
             margin-left: 1rem;
@@ -377,6 +438,8 @@
             text-align: center;
             border-radius: 50%;
             display: none;
+            color:black;
+            text-decoration: none;
 
             &:hover {
                 opacity: .6;
@@ -389,8 +452,6 @@
                 width: 2rem;
                 font-size: 200%;
             }
-
-
 
         }
 
